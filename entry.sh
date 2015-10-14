@@ -15,4 +15,4 @@ fi
 /opt/kafka/bin/kafka-mirror-maker.sh \
 	--consumer.config /opt/kafka/config/consumer.properties \
 	--producer.config /opt/kafka/config/producer.properties \
-	${OPTIONS:-"--whitelist=\"*\""}
+	${OPTIONS:-"--whitelist=\".*\""}
